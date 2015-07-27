@@ -1,0 +1,69 @@
+/********************************************************************************
+** Form generated from reading UI file 'game_editor.ui'
+**
+** Created by: Qt User Interface Compiler version 5.5.0
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_GAME_EDITOR_H
+#define UI_GAME_EDITOR_H
+
+#include <QtCore/QVariant>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QToolBar>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_game_editorClass
+{
+public:
+    QMenuBar *menuBar;
+    QToolBar *mainToolBar;
+    QWidget *centralWidget;
+    QStatusBar *statusBar;
+
+    void setupUi(QMainWindow *game_editorClass)
+    {
+        if (game_editorClass->objectName().isEmpty())
+            game_editorClass->setObjectName(QStringLiteral("game_editorClass"));
+        game_editorClass->resize(600, 400);
+        menuBar = new QMenuBar(game_editorClass);
+        menuBar->setObjectName(QStringLiteral("menuBar"));
+        game_editorClass->setMenuBar(menuBar);
+        mainToolBar = new QToolBar(game_editorClass);
+        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
+        game_editorClass->addToolBar(mainToolBar);
+        centralWidget = new QWidget(game_editorClass);
+        centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        game_editorClass->setCentralWidget(centralWidget);
+        statusBar = new QStatusBar(game_editorClass);
+        statusBar->setObjectName(QStringLiteral("statusBar"));
+        game_editorClass->setStatusBar(statusBar);
+
+        retranslateUi(game_editorClass);
+
+        QMetaObject::connectSlotsByName(game_editorClass);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *game_editorClass)
+    {
+        game_editorClass->setWindowTitle(QApplication::translate("game_editorClass", "game_editor", 0));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class game_editorClass: public Ui_game_editorClass {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_GAME_EDITOR_H

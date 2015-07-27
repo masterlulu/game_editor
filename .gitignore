@@ -1,0 +1,7 @@
+*.obj
+*.tlog
+*.suo
+*.opensdf
+Debug.win32
+Debug
+cocos2d
